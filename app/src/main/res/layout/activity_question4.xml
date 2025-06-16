@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#333333"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Cabeçalho fixo -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="GOT Quiz"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Conteúdo centralizado verticalmente -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <TextView
+            android:text="4. O que você escolheria para colocar no seu brasão:"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/optionFlower"
+            android:text="flor dourada"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/optionDragon"
+            android:text="dragão"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/optionLion"
+            android:text="leão"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/optionSun"
+            android:text="sol"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/optionWolf"
+            android:text="lobo"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

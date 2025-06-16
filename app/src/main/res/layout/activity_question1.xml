@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#333333"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Cabeçalho fixo -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="GOT Quiz"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Conteúdo centralizado verticalmente -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <TextView
+            android:text="1. Qual a sua cor favorita dentre as abaixo:"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnQ1Opt1"
+            android:text="cinza e branco"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnQ1Opt2"
+            android:text="vermelho e dourado"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnQ1Opt3"
+            android:text="vermelho e preto"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnQ1Opt4"
+            android:text="verde e dourado"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnQ1Opt5"
+            android:text="amarelo e laranja"
+            android:background="#222222"
+            android:backgroundTint="#222222"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- Tema base sem ActionBar e em full-screen -->
+    <style name="Theme.GotQuiz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- esconde a status bar -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- cores padrão, se precisar -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
